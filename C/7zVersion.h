@@ -1,7 +1,7 @@
-#define MY_VER_MAJOR 25
-#define MY_VER_MINOR 01
-#define MY_VER_BUILD 04
-#define MY_VERSION_NUMBERS "25.01 ZS v1.5.7 R4"
+#define MY_VER_MAJOR 26
+#define MY_VER_MINOR 0
+#define MY_VER_BUILD 0
+#define MY_VERSION_NUMBERS "26.00 ZS v1.5.7 R1"
 #define MY_VERSION MY_VERSION_NUMBERS
 
 #ifdef MY_CPU_NAME
@@ -10,12 +10,12 @@
   #define MY_VERSION_CPU MY_VERSION
 #endif
 
-#define MY_DATE "2026-01-10"
+#define MY_DATE "2026-02-12"
 #undef MY_COPYRIGHT
 #undef MY_VERSION_COPYRIGHT_DATE
 #define MY_AUTHOR_NAME "Igor Pavlov, Tino Reichardt, Sergey G. Brester"
 #define MY_COPYRIGHT_PD "Igor Pavlov : Public domain"
-#define MY_COPYRIGHT_CR "Copyright (c) 1999-2025 Igor Pavlov, 2016-2026 Tino Reichardt, 2022-2026 Sergey G. Brester"
+#define MY_COPYRIGHT_CR "Copyright (c) 1999- Igor Pavlov, 2016- Tino Reichardt, 2022- Sergey G. Brester"
 
 #ifdef USE_COPYRIGHT_CR
   #define MY_COPYRIGHT MY_COPYRIGHT_CR
